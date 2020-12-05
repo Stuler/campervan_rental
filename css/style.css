@@ -57,6 +57,9 @@ ul {
     float: left;
 }
 
+.nav-bar {
+    background: #ac9d5a;
+}
 
 nav {
     display: block;
@@ -66,9 +69,40 @@ nav {
     float: right;
 }
 
+.navigation a {
+    color: #93ec1e;
+    display: block;
+    text-align: center;
+    padding: 2.75em 0;
+    width: 10em;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.1em;
+}
+
 li {
     display: inline-block;
 }
+
+.logo a {
+    color: rgb(223, 208, 208);
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+}
+
+.logo strong {
+    color: rgb(247, 240, 240);
+    font-size: 1.4em;
+
+}
+
+.fa-caravan {
+    font-size: 1.1em;
+    color: rgb(247, 196, 152);
+}
+
+
 
 
 
