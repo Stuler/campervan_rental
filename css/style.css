@@ -48,13 +48,14 @@ ul {
 .container {
         max-width: 1170px;
         margin: 0 auto;
-        padding: 0 1.25em;
+        padding: 0 .25em;
 }
 
 /* HEADER */
 
 .logo {
     float: left;
+    margin: .5em 0;
 }
 
 .nav-bar {
@@ -70,17 +71,19 @@ nav {
 }
 
 .navigation a {
-    color: #93ec1e;
+    color: #f2f2f2;
     display: block;
     text-align: center;
-    padding: 2.75em 0;
-    width: 10em;
+    padding: 1em 0.8em;
+    width: 9em;
     font-family: 'Fredoka One', cursive;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    
 }
 
-li {
+.navigation li {
     display: inline-block;
+    border-left: 1px solid #cecece;
 }
 
 .logo a {
@@ -100,6 +103,12 @@ h1 {
 .fa-caravan {
     font-size: 1.1em;
     color: rgb(247, 196, 152);
+}
+
+/* Main content*/
+
+.content {
+    background: url('../img/bground_1_dark.jpeg');
 }
 
 
