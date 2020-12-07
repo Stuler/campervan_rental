@@ -113,6 +113,12 @@ h1 {
     color: rgb(247, 196, 152);
 }
 
+/* Main Header */
+
+.post-header {
+    background-color: #85CDD6;
+}
+
 /* Main content*/
 
 .content {
