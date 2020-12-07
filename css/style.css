@@ -19,10 +19,6 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-}
-
 .container:before,
 .group:before,
 .menu:before,
@@ -59,7 +55,8 @@ ul {
 }
 
 .nav-bar {
-    background: #ac9d5a;
+    background: #1CB383;
+    border-bottom: 0.5px solid #B3543B;
 }
 
 nav {
@@ -78,12 +75,23 @@ nav {
     width: 9em;
     font-family: 'Fredoka One', cursive;
     font-size: 1.2em;
-    
+
+}
+
+.navigation a:hover,
+.navigation a:focus {
+    color: rgb(212, 218, 250);
+    transform: scale(1.05);
+    transition: all .5s ease;
 }
 
 .navigation li {
     display: inline-block;
     border-left: 1px solid #cecece;
+}
+
+.navigation li:last-child {
+    border-right: 1px solid #cecece;
 }
 
 .logo a {
@@ -108,7 +116,8 @@ h1 {
 /* Main content*/
 
 .content {
-    background: url('../img/bground_1_dark.jpeg');
+    /*background: url('../img/bground_1_dark.jpeg') ;*/
+    background-color: #A1FFE1;
 }
 
 
