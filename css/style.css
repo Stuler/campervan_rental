@@ -9,7 +9,7 @@ html {
 
 body {
     color: #000000;
-    background: #f7f7f7;
+    background: #eeefed;
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -55,7 +55,7 @@ a {
 }
 
 .nav-bar {
-    background: #1CB383;
+    background: #6472B3;
     border-bottom: 0.5px solid #B3543B;
 }
 
@@ -87,11 +87,11 @@ nav {
 
 .navigation li {
     display: inline-block;
-    border-left: 1px solid #cecece;
+    border-left: 1px solid #f2f2f2;
 }
 
 .navigation li:last-child {
-    border-right: 1px solid #cecece;
+    border-right: 1px solid #f2f2f2;
 }
 
 .logo a {
@@ -116,15 +116,26 @@ h1 {
 /* Main Header */
 
 .post-header {
-    background-color: #85CDD6;
+
 }
 
 /* Main content*/
 
-.content {
-    /*background: url('../img/bground_1_dark.jpeg') ;*/
-    background-color: #A1FFE1;
+.info-list {
+    padding-bottom: 1em;
+
 }
+
+.info-header {
+    box-shadow: -3px -3px 3px #134dd4;
+    padding: 0.1em 0.15em;
+}
+
+.info,
+.details {
+    padding-bottom: 2em;
+}
+
 
 
 
