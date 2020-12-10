@@ -127,13 +127,12 @@ h1 {
 }
 
 .info-header {
-    box-shadow: -3px -3px 3px #134dd4;
+    box-shadow: -2px -2px 2px -2px #134dd4;
     padding: 0.1em 0.15em;
 }
 
-.info,
-.details {
-    padding-bottom: 2em;
+.post-info .container {
+    box-shadow: 2px 2px 2px #134dd4;
 }
 
 
