@@ -115,32 +115,32 @@ h1 {
 
 /* Main Header */
 
-.post-header {
-
-}
 
 /* Main content*/
 
 .info-list {
     padding-bottom: 1em;
-
 }
 
-.info-header {
-    box-shadow: -2px -2px 2px -2px #134dd4;
-    padding: 0.1em 0.15em;
+.col-container {
+    display: table;
+    width: 100%;
 }
 
-.post-info .container {
-    box-shadow: 2px 2px 2px #134dd4;
-}
-
-.info,
-.details {
-    float: left;
+.col {
+    display: table-cell;
     width: 50%;
 }
 
+.info {
+    padding-right: 1em;
+    background: rgb(161, 193, 253);
+}
+
+.details {
+    padding-left: 1em;
+    background: rgb(161, 193, 253);
+}
 
 
 
