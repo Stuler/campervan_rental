@@ -135,6 +135,11 @@ h1 {
     box-shadow: 2px 2px 2px #134dd4;
 }
 
+.info,
+.details {
+    float: left;
+    width: 50%;
+}
 
 
 
