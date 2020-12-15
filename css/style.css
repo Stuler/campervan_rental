@@ -107,6 +107,10 @@ h1 {
     font-family: 'Fredoka One', cursive;
 }
 
+.sec-header {
+    float: right;
+}
+
 .logo strong {
     color: rgb(247, 240, 240);
     font-size: 1.4em;
@@ -118,15 +122,12 @@ h1 {
     color: rgb(247, 196, 152);
 }
 
-.post-header {
-
-}
-
 .main-header{
     max-width: 22%;
     background:  #6473b327;
     padding: 1em 0.5em;
     margin: 0;
+    border: 1px solid #95969e;
 }
 
 
@@ -139,6 +140,7 @@ h1 {
 .col-container {
     display: table;
     width: 100%;
+    border: 1px solid #2e2020;
 }
 
 .col {
@@ -151,7 +153,6 @@ h1 {
 .info,
 .details {
     padding: 0.75em;
-
 }
 
 
