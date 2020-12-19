@@ -8,8 +8,9 @@ html {
 }
 
 body {
-    color: #000000;
-    background: #eeefed;
+    background: url("../img/1912657.jpg") center -200px no-repeat fixed;
+
+
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -18,11 +19,6 @@ body {
 a {
     text-decoration: none;
 }
-
-main {
-    background: url("../img/1912657.jpg") center -200px no-repeat fixed;
-}
-
 
 .container:before,
 .group:before,
@@ -49,7 +45,7 @@ main {
 .container {
         max-width: 1170px;
         margin: 0 auto;
-        padding: 0 .25em;
+
 }
 
 /* HEADER */
@@ -60,8 +56,11 @@ main {
 }
 
 .nav-bar {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1em;
     background: #6473b3;
-    border-bottom: 0.5px solid #B3543B;
+    border: 1px solid #95969e;
 }
 
 nav {
@@ -95,10 +94,6 @@ nav {
     border-left: 1px solid #f2f2f2;
 }
 
-.navigation li:last-child {
-    border-right: 1px solid #f2f2f2;
-}
-
 .logo a {
     color: rgb(223, 208, 208);
 }
@@ -107,8 +102,13 @@ h1 {
     font-family: 'Fredoka One', cursive;
 }
 
-.sec-header {
-    float: right;
+.post-header {
+    max-width: 100%;
+    background:  #b9b9b927;
+    padding: 0.85em 0.5em;
+    margin: 0;
+    border: 1px solid #95969e;
+    text-align: center;
 }
 
 .logo strong {
@@ -122,15 +122,6 @@ h1 {
     color: rgb(247, 196, 152);
 }
 
-.main-header{
-    max-width: 22%;
-    background:  #6473b327;
-    padding: 1em 0.5em;
-    margin: 0;
-    border: 1px solid #95969e;
-}
-
-
 /* Main content*/
 
 .info-list {
@@ -140,7 +131,7 @@ h1 {
 .col-container {
     display: table;
     width: 100%;
-    border: 1px solid #2e2020;
+    border: 1px solid #95969e;
 }
 
 .col {
