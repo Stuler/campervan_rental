@@ -146,5 +146,18 @@ h1 {
     padding: 0.75em;
 }
 
+.post-info,
+.info-list {
+    color: beige;
+    line-height: 1.65em;
+    font-size: 1.1em;
+}
+
+.info-header {
+    font-size: 2em;
+    color: rgb(5, 7, 8);
+    font-weight: 700;
+}
+
 
 
