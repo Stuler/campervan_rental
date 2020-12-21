@@ -135,8 +135,8 @@ h1 {
 }
 
 .col {
-    display: table-cell;
-    width: 50%;
+    display: cell;
+    width: 100%;
     background: #5c53add3;
     color: rgb(168, 245, 245);
 }
