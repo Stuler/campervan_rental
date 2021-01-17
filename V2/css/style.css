@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: url("../img/image20.png") center -340px no-repeat fixed;
+    background: #413416;
 
 
     font-size: 100%;
@@ -43,16 +43,28 @@ a {
 }
 
 .container {
-        max-width: 1170px;
-        margin: 0 auto;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0.4em 0 0 1em;
 
 }
 
 /* HEADER */
 
+.menu-pic {
+    width: 33%;
+    float: left;
+}
+
+header {
+    background: #20594E;
+    border-bottom: 1px solid #2B8271;
+}
+
 .logo {
     float: left;
     margin: 0;
+    padding: 0.4em 0;
 }
 
 .nav-bar {
@@ -100,6 +112,7 @@ nav {
 
 h1 {
     font-family: 'Fredoka One', cursive;
+    font-size: 1.4em;
 }
 
 .post-header {
@@ -113,7 +126,7 @@ h1 {
 
 .logo strong {
     color: rgb(247, 240, 240);
-    font-size: 1.4em;
+    font-size: 0.9em;
 
 }
 
