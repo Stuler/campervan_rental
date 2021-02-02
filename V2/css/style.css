@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: #413416;
+    background: #FFF9E8;
 
 
     font-size: 100%;
@@ -45,7 +45,7 @@ a {
 .container {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 0.4em 0 0 1em;
+    padding: 0;
 
 }
 
@@ -174,5 +174,8 @@ h1 {
     font-weight: 700;
 }
 
-
-
+.nav-row1{
+    float: left;
+    width: 50%;
+    padding: 2em 0 4em;
+}
