@@ -18,6 +18,7 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .container:before,
@@ -43,7 +44,7 @@ a {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1920px;
     margin: 0 auto;
     padding: 0;
 
@@ -60,21 +61,21 @@ a {
 
 header {
     background:#1F2121;
-    border-bottom: 1px solid #D1E2E8;
+    border-bottom: 1px solid #52807B;
 }
 
 .logo {
     float: left;
     margin: 0;
-    padding: 0.4em 0;
+    padding: 0.4em 0.5em;
 }
 
 .nav-bar {
-    max-width: 1170px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 1em;
     background: #DBFFE9;
-    border: 1px solid #95969e;
+    border: 1px solid #52807B;
 }
 
 nav {
@@ -176,6 +177,33 @@ h1 {
 
 .nav-row1{
     float: left;
-    width: 33%;
-    padding: 2em 0 4em;
+    width: 33.333%;
+    padding: 0 0 4em 0;
+}
+
+.nav-header {
+    font-family: serif;
+
+    text-align: center;
+
+}
+
+.nav-header-sect {
+    background: #1f2121b7;
+    margin-top: -3em;
+    position: relative;
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border: 1px solid #52807B;
+    filter: drop-shadow(0 0.5em 0.4em #1F2121)
+}
+
+.nav-row1 a {
+    color: #F2FFFE;
+}
+
+.hdr-image {
+    filter: drop-shadow(0 0.5em 0.4em #1F2121)
 }
