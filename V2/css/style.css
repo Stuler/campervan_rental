@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: #F2FFFF;
+    background: #fff;
 
 
     font-size: 100%;
@@ -80,6 +80,7 @@ header {
 
 nav {
     display: block;
+
 }
 
 .navigation {
@@ -190,20 +191,16 @@ h1 {
 
 .nav-header-sect {
     background: #1f2121b7;
-    margin-top: -3em;
+    margin-top: -4.5em;
     position: relative;
     margin-left: 6em;
     margin-right: 6em;
     padding-bottom: 1em;
     padding-top: 1em;
     border: 1px solid #52807B;
-    filter: drop-shadow(0 0.5em 0.4em #1F2121)
+    filter: drop-shadow(0 -0.5em 0.4em #1F2121)
 }
 
 .nav-row1 a {
     color: #F2FFFE;
-}
-
-.hdr-image {
-    filter: drop-shadow(0 0.5em 0.4em #1F2121)
 }
